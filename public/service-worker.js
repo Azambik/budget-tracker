@@ -4,8 +4,7 @@ const CACHE_NAME = APP_PREFIX + VERSION;
 const FILES_TO_CACHE = [
     "./index.html",
     "./js/index.js",
-    "./css/styles.css",
-    "../routes/api.js"
+    "./css/styles.css"
   ];
 // Respond with cached resources
 self.addEventListener('fetch', function (e) {
